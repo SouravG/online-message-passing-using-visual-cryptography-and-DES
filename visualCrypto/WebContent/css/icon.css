@@ -1,0 +1,118 @@
+.delete a:before {
+    width:16px;
+    height:16px;
+    /* css3 */
+    -webkit-border-radius:16px;
+    -moz-border-radius:16px;
+    border-radius:16px;
+}
+
+.delete a:after {
+    left:3px;
+    width:10px;
+    height:2px;
+    margin-top:-1px;
+    background:#fff;
+    /* css3 */
+    -webkit-transform:rotate(45deg);
+    -moz-transform:rotate(45deg);
+    -ms-transform:rotate(45deg);
+    -o-transform:rotate(45deg);
+    transform:rotate(45deg);
+}
+
+.delete:before {
+    z-index:10;
+    left:7px;
+    width:2px;
+    height:10px;
+    margin-top:-5px;
+    background:#fff;
+    /* css3 */
+    -webkit-transform:rotate(45deg);
+    -moz-transform:rotate(45deg);
+    -ms-transform:rotate(45deg);
+    -o-transform:rotate(45deg);
+    transform:rotate(45deg);
+}
+
+/* Alternative style */
+
+.delete-alt a:before,
+.delete-alt a:after {
+    left:6px;
+    width:5px;
+    height:15px;
+    margin-top:-7px;
+    background:#c55500;
+    /* css3 */
+    -webkit-transform:rotate(45deg);
+    -moz-transform:rotate(45deg);
+    -ms-transform:rotate(45deg);
+    -o-transform:rotate(45deg);
+    transform:rotate(45deg);
+}
+
+.delete-alt a:after {
+    left:1px;
+    width:15px;
+    height:5px;
+    margin-top:-2px;
+}
+
+.delete-alt a:hover:after,
+.delete-alt a:focus:after,
+.delete-alt a:active:after {
+    background:#730800;
+}
+.success {
+    color:#7F913C;
+}
+
+.success:before {
+    left:3px;
+    width:16px;
+    height:16px;
+    margin-top:-8px;
+    /* css3 */
+    -webkit-border-radius:16px;
+    -moz-border-radius:16px;
+    border-radius:16px;
+    background:#7F913C;
+}
+
+.success:after {
+    left:8px;
+    width:3px;
+    height:8px;
+    border-width:0 2px 2px 0;
+    border-style:solid;
+    border-color:#fff;
+    margin-top:-6px;
+    -webkit-transform:rotate(45deg);
+    -moz-transform:rotate(45deg);
+    -ms-transform:rotate(45deg);
+    -o-transform:rotate(45deg);
+    transform:rotate(45deg);
+}
+
+/* Alternative style */
+
+.success-alt {
+    color:#7F913C;
+}
+
+.success-alt:before {
+    left:6px;
+    width:5px;
+    height:12px;
+    border-width:0 5px 5px 0;
+    border-style:solid;
+    border-color:#7F913C;
+    margin-top:-11px;
+    -webkit-transform:rotate(45deg);
+    -moz-transform:rotate(45deg);
+    -ms-transform:rotate(45deg);
+    -o-transform:rotate(45deg);
+    transform:rotate(45deg);
+}
